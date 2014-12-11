@@ -1,0 +1,1220 @@
+<?xml version="1.0"?>
+<CSG xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tree>
+		<Addition>
+			<Addition>
+				<Instance ID="House1" src="House" X="-1500" Y="50" Z="-1000" />
+				<Instance ID="House2" src="House" X="-500" Y="50" Z="-1000" />
+			</Addition>
+			<Addition>
+				<Instance ID="House3" src="House" X="500" Y="50" Z="-1000" />
+				<Instance ID="House4" src="House" X="1500" Y="50" Z="-1000" />
+			</Addition>
+		</Addition>
+	</Tree>
+	<Instances>
+		<Addition ID="House">
+			<Addition>
+				<Subtraction>
+					<Subtraction>
+						<Addition>
+							<Addition>
+								<Addition ID="Fireplace" X="-382" Y="29" Z="-95">
+									<Addition>
+										<Addition>
+											<Instance X="-2" Y="272" src="Brush56" />
+											<Instance X="6" Y="-76" src="Brush57" />
+										</Addition>
+										<Addition>
+											<Instance X="14" Y="-140" src="Brush58" />
+											<Instance X="-22" Y="-108" src="Brush59" />
+										</Addition>
+									</Addition>
+									<Addition>
+										<Instance X="2" Y="-108" Z="-60" src="Brush60" />
+										<Instance X="2" Y="-108" Z="60" src="Brush60" />
+									</Addition>
+								</Addition>
+								<Addition ID="Stairs">
+									<Addition ID="InsideStairs">
+										<Addition ID="TopStairs" X="-16" Y="-28" Z="-199">
+											<Addition>
+												<Addition>
+													<Addition>
+														<Instance X="60" Y="9"   Z="20" src="Brush33" />
+														<Instance X="-76" Y="5"  Z="20" src="Brush34" />
+													</Addition>
+													<Addition>
+														<Instance X="60" Y="5"   Z="-176" src="Brush35" />
+														<Instance X="60" Y="9"   Z="-124" src="Brush36" />
+													</Addition>
+												</Addition>
+												<Addition>
+													<Addition>
+														<Instance X="-8" Y="93"  Z="-124" src="Brush38" />
+														<Instance X="-8" Y="77"  Z="-100" src="Brush38" />
+													</Addition>
+													<Addition>
+														<Instance X="-8" Y="61"  Z="-76" src="Brush38" />
+														<Instance X="-8" Y="45"  Z="-52" src="Brush38" />
+													</Addition>
+												</Addition>
+											</Addition>
+											<Addition>
+												<Addition>
+													<Addition>
+														<Instance X="-8" Y="29"  Z="-28" src="Brush38" />
+														<Instance X="-8" Y="13"  Z="-4" src="Brush38" />
+													</Addition>
+													<Addition>
+														<Instance X="-8" Y="-3"  Z="20" src="Brush38" />
+														<Instance X="-8" Y="-19" Z="44" src="Brush38" />
+													</Addition>
+												</Addition>
+												<Addition>
+													<Addition>
+														<Instance X="-8" Y="-35" Z="68" src="Brush38" />
+														<Instance X="-8" Y="-51" Z="92" src="Brush38" />
+													</Addition>
+													<Addition>
+														<Instance X="-8" Y="-67" Z="116" src="Brush38" />
+														<Instance X="-8" Y="-79" Z="140" src="Brush38" />
+													</Addition>
+												</Addition>
+											</Addition>
+										</Addition>
+										<Addition ID="BottomStairs" X="-28" Y="-207" Z="-267">
+											<Addition>
+												<Addition>
+													<Addition>
+														<Addition>
+															<Instance X="64"  Y="-8"  Z="8"    src="Brush40" />
+															<Instance X="-64" Y="-8"  Z="8"    src="Brush41" />
+														</Addition>
+														<Addition>
+															<Instance X="-64" Y="120" Z="-128" src="Brush42" />
+															<Instance X="-64" Y="-68" Z="136"  src="Brush43" />
+														</Addition>
+													</Addition>
+													<Addition>
+														<Addition>
+															<Instance X="64"  Y="-68" Z="136"  src="Brush43" />
+															<Instance X="64"  Y="120" Z="-128" src="Brush42" />
+														</Addition>
+														<Addition>
+															<Instance         Y="80"  Z="-136" src="Brush44" />
+															<Instance         Y="64"  Z="-112" src="Brush45" />
+														</Addition>
+													</Addition>
+												</Addition>
+												<Addition>
+													<Addition>
+														<Addition>
+															<Instance         Y="48"  Z="-88"  src="Brush45" />
+															<Instance         Y="32"  Z="-64"  src="Brush45" />
+														</Addition>
+														<Addition>
+															<Instance         Y="16"  Z="-40"  src="Brush45" />
+															<Instance                 Z="-16"  src="Brush45" />
+														</Addition>
+													</Addition>
+													<Addition>
+														<Addition>
+															<Instance         Y="-16" Z="8"    src="Brush45" />
+															<Instance         Y="-32" Z="32"   src="Brush45" />
+														</Addition>
+														<Addition>
+															<Instance         Y="-48" Z="56"   src="Brush45" />
+															<Instance         Y="-64" Z="80"   src="Brush45" />
+														</Addition>
+													</Addition>
+												</Addition>
+											</Addition>
+											<Addition>
+												<Instance         Y="-80" Z="104"  src="Brush45" />
+												<Instance         Y="-92" Z="128"  src="Brush46" />
+											</Addition>
+										</Addition>
+									</Addition>
+									<Addition ID="FrontStairs" X="24" Y="-146" Z="346">
+										<Addition>
+											<Addition>
+												<Addition>
+													<Instance Y="-13" Z="-9" src="Brush73" />
+													<Instance Y="-5" Z="-57" src="Brush74" />
+												</Addition>
+												<Addition>
+													<Instance X="-112" Y="12" Z="39" src="Brush75" />
+													<Instance X="112" Y="12" Z="39" src="Brush75" />
+												</Addition>
+											</Addition>
+											<Addition>
+												<Addition>
+													<Instance Y="-21" Z="23" src="Brush76" />
+													<Instance Y="-29" Z="55" src="Brush77" />
+												</Addition>
+												<Addition>
+													<Instance Y="-19" Z="57" src="Brush78" />
+													<Instance X="112" Y="11" Z="-57" src="Brush79" />
+												</Addition>
+											</Addition>
+										</Addition>
+										<Addition>
+											<Addition>
+												<Instance X="-112" Y="11" Z="-57" src="Brush79" />
+												<Instance Y="-3" Z="25" src="Brush78" />
+											</Addition>
+											<Addition>
+												<Instance Y="13" Z="-7" src="Brush78" />
+												<Instance Y="29" Z="-55" src="Brush80" />
+											</Addition>
+										</Addition>
+									</Addition>
+								</Addition>
+							</Addition>
+							<Addition>
+								<Addition ID="Floors">
+									<Subtraction ID="GroundFloor" X="-4" Y="-119" Z="-207">
+										<Instance ID="Ground-Floor" X="24" Z="16" src="Brush2" />
+										<Instance ID="Ground-Floor Hole" X="-24" Z="-16" src="Brush3" />
+									</Subtraction>
+									<Subtraction ID="TopFloor" X="22" Y="73" Z="-155">
+										<Instance ID="Top-Floor" X="-2" Z="-36" src="Brush2" />
+										<Instance ID="Top-Floor Hole" X="2" Z="36" src="Brush4" />
+									</Subtraction>
+								</Addition>
+								<Addition>
+									<Subtraction>
+										<Addition ID="Walls">
+											<Addition>
+												<Addition>
+													<Addition ID="OuterWalls" X="20" Y="122" Z="-191">
+														<Addition>
+															<Instance X="432" Y="-145" src="Brush5" />
+															<Instance X="-432" Y="-145" src="Brush5" />
+														</Addition>
+														<Addition>
+															<Addition>
+																<Instance Y="-145" Z="-444" src="Brush6" />
+																<Instance X="432" Y="291" src="Brush7" />
+															</Addition>
+															<Addition>
+																<Instance X="-432" Y="291" src="Brush7" />
+																<Instance ID="Front" Y="-145" Z="444" src="Brush6" />
+															</Addition>
+														</Addition>
+													</Addition>
+													<Addition ID="CellarWalls" X="49" Y="-195" Z="-229">
+														<Addition>
+															<Addition>
+																<Addition>
+																	<Addition>
+																		<Instance X="-5" Y="-20" Z="-46" src="Brush8" />
+																		<Instance X="-149" Y="-16" Z="-46" src="Brush9" />
+																	</Addition>
+																	<Addition>
+																		<Instance X="-149" Y="-15" Z="-45" src="Brush10" />
+																		<Instance X="-241" Y="-20" Z="98" src="Brush11" />
+																	</Addition>
+																</Addition>
+																<Addition>
+																	<Addition>
+																		<Instance X="-369" Y="-20" Z="-190" src="Brush11" />
+																		<Instance X="263" Y="-20" Z="98" src="Brush12" />
+																	</Addition>
+																	<Addition>
+																		<Instance X="135" Y="-20" Z="-190" src="Brush12" />
+																		<Instance X="283" Y="-20" Z="226" src="Brush13" />
+																	</Addition>
+																</Addition>
+															</Addition>
+															<Addition>
+																<Addition>
+																	<Addition>
+																		<Instance X="3" Y="-20" Z="98" src="Brush13" />
+																		<Instance X="275" Y="-20" Z="-190" src="Brush13" />
+																	</Addition>
+																	<Addition>
+																		<Instance X="-277" Y="-20" Z="-190" src="Brush13" />
+																		<Instance X="-453" Y="-20" Z="98" src="Brush13" />
+																	</Addition>
+																</Addition>
+																<Addition>
+																	<Addition>
+																		<Instance X="-333" Y="-20" Z="98" src="Brush13" />
+																		<Instance X="-393" Y="68" Z="98" src="Brush14" />
+																	</Addition>
+																	<Addition>
+																		<Instance X="-157" Y="-20" Z="-190" src="Brush13" />
+																		<Instance X="-217" Y="68" Z="-190" src="Brush14" />
+																	</Addition>
+																</Addition>
+															</Addition>
+														</Addition>
+														<Addition>
+															<Addition>
+																<Addition>
+																	<Instance X="395" Y="-20" Z="-190" src="Brush13" />
+																	<Instance X="335" Y="68" Z="-190" src="Brush14" />
+																</Addition>
+																<Addition>
+																	<Instance X="123" Y="-20" Z="98" src="Brush13" />
+																	<Instance X="63" Y="68" Z="98" src="Brush14" />
+																</Addition>
+															</Addition>
+															<Addition>
+																<Addition>
+																	<Instance X="283" Y="-20" Z="106" src="Brush13" />
+																	<Instance X="283" Y="68" Z="166" src="Brush15" />
+																</Addition>
+																<Instance X="283" Y="-20" Z="354" src="Brush16" />
+															</Addition>
+														</Addition>
+													</Addition>
+												</Addition>
+												<Addition ID="GroundLevelWalls" X="134" Y="-1" Z="-204">
+													<Addition>
+														<Addition>
+															<Addition>
+																<Instance X="14" Y="-22" Z="-303" src="Brush13" />
+																<Instance X="-234" Y="-22" Z="-127" src="Brush17" />
+															</Addition>
+															<Addition>
+																<Instance X="222" Y="-22" Z="-31" src="Brush13" />
+																<Instance X="118" Y="-22" Z="-31" src="Brush13" />
+															</Addition>
+														</Addition>
+														<Addition>
+															<Addition>
+																<Instance X="170" Y="66" Z="-31" src="Brush18" />
+																<Instance X="14" Y="-22" Z="-63" src="Brush19" />
+															</Addition>
+															<Addition>
+																<Instance X="14" Y="-22" Z="-423" src="Brush13" />
+																<Instance X="14" Y="-22" Z="297" src="Brush13" />
+															</Addition>
+														</Addition>
+													</Addition>
+													<Addition>
+														<Addition>
+															<Addition>
+																<Instance X="-234" Y="-22" Z="297" src="Brush13" />
+																<Instance X="-234" Y="-22" Z="177" src="Brush13" />
+															</Addition>
+															<Addition>
+																<Instance X="-234" Y="66" Z="237" src="Brush15" />
+																<Instance X="14" Y="-22" Z="177" src="Brush13" />
+															</Addition>
+														</Addition>
+														<Addition>
+															<Addition>
+																<Instance X="14" Y="66" Z="237" src="Brush15" />
+																<Instance X="14" Y="66" Z="-363" src="Brush15" />
+															</Addition>
+															<Addition>
+																<Instance X="270" Y="-22" Z="-31" src="Brush20" />
+																<Instance X="66" Y="-22" Z="-31" src="Brush21" />
+															</Addition>
+														</Addition>
+													</Addition>
+												</Addition>
+											</Addition>
+											<Instance ID="EntryWalls" X="24" Y="-23" Z="181" src="Brush62" />
+										</Addition>
+										<Addition ID="EntryWallRemoval" X="24" Y="-18" Z="228">
+											<Addition>
+												<Instance Y="71" Z="-47" src="Brush63" />
+												<Instance Y="-21" Z="-47" src="Brush64" />
+											</Addition>
+											<Addition>
+												<Instance X="112" Y="-5" Z="-47" src="Brush65" />
+												<Instance X="-112" Y="-5" Z="-47" src="Brush65" />
+											</Addition>
+										</Addition>
+									</Subtraction>
+									<Addition ID="EntryArch" X="24" Y="-18" Z="228">
+										<Instance X="64" Y="111" Z="33" src="Brush71" />
+										<Instance X="-64" Y="111" Z="33" src="Brush72" />
+									</Addition>
+								</Addition>
+							</Addition>
+						</Addition>
+						<Instance ID="FireplaceHole" X="-384" Y="297" Z="-95" src="Brush61" />
+					</Subtraction>
+					<Addition ID="AllWindows">
+						<Addition ID="RegularWindows">
+							<Addition ID="TopWindows">
+								<Instance ID="TopLeftWindow"  src="WindowInternal" X="296" Y="175" Z="253" />
+								<Instance ID="TopRightWindow" src="WindowInternal" X="-248" Y="175" Z="253" />
+							</Addition>
+							<Addition ID="BottomWindows">
+								<Instance ID="BottomRightWindow" src="WindowInternal" X="-248" Y="-17" Z="253" />
+								<Instance ID="BottomLeftWindow"  src="WindowInternal" X="296" Y="-17" Z="253" />
+							</Addition>
+						</Addition>
+						<Addition ID="CellarWindows">
+							<Instance ID="RightCellarWindow" src="CellarWindow" X="-204" Y="-147" Z="255"/>
+							<Instance ID="LeftCellarWindow"  src="CellarWindow" X="244" Y="-147" Z="255"/>
+						</Addition>
+					</Addition>
+				</Subtraction>
+				<Addition ID="RegularWindowProps">
+					<Addition ID="TopWindowProps">
+						<Instance ID="TopLeftWindowProps"   src="WindowProps" X="296" Y="175" Z="254" />
+						<Instance ID="TopRightWindowProps"  src="WindowProps" X="-248" Y="175" Z="254" />
+					</Addition>
+					<Addition ID="BottomWindowProps">
+						<Instance ID="BottomRightWindowProps" src="WindowProps" X="-248" Y="-17" Z="254" />
+						<Instance ID="BottomLeftWindowProps"  src="WindowProps" X="296" Y="-17" Z="254" />
+					</Addition>
+				</Addition>
+			</Addition>
+			<Addition ID="Roof">
+				<Addition ID="Roof" X="20" Y="412" Z="-191">
+					<Instance Z="236" src="Brush0" ID="Roof1" />
+					<Instance Z="-236" src="Brush1" ID="Roof2" />
+				</Addition>
+				<Instance ID="CellarFloor" X="20" Y="-311" Z="-191" src="Brush2" />
+			</Addition>
+		</Addition>
+		<Subtraction ID="WindowInternal" Animate="true">
+			<Instance src="Brush47" />
+			<Addition>
+				<Addition>
+					<Addition>
+						<Addition>
+							<Instance src="Brush52" />
+							<Instance X="14" Y="24" src="Brush55" />
+						</Addition>
+						<Addition>
+							<Instance X="-14" Y="24" src="Brush55" />
+							<Instance Y="24" src="Brush52" />
+						</Addition>
+					</Addition>
+					<Addition>
+						<Addition>
+							<Instance X="-40" src="Brush54" />
+							<Instance X="40" src="Brush54" />
+						</Addition>
+						<Addition>
+							<Instance Y="-48" src="Brush50" />
+							<Instance Y="48" src="Brush50" />
+						</Addition>
+					</Addition>
+				</Addition>
+				<Addition>
+					<Addition>
+						<Addition X="-56">
+							<Instance src="Brush51" />
+							<Addition>
+								<Instance Y="-24" src="Brush51" />
+								<Instance Y="24" src="Brush51" />
+							</Addition>
+						</Addition>
+						<Addition X="56">
+							<Instance src="Brush51" />
+							<Addition>
+								<Instance Y="-24" src="Brush51" />
+								<Instance Y="24" src="Brush51" />
+							</Addition>
+						</Addition>
+					</Addition>
+					<Addition>
+						<Instance X="-70" src="Brush53" />
+						<Instance X="70" src="Brush53" />
+					</Addition>
+				</Addition>
+			</Addition>
+		</Subtraction>
+		<Addition ID="WindowProps" Animate="true" >
+			<Instance Y="-54" Z="-1" src="Brush48" />
+			<Addition>
+				<Instance X="-88" Z="5" src="Brush49" />
+				<Instance X="88" Z="5" src="Brush49" />
+			</Addition>
+		</Addition>
+		<Subtraction ID="CellarWindow" Animate="true" >
+			<Instance src="Brush81" Z="-2" />
+			<Addition >
+				<Addition>
+					<Instance src="Brush82" X="8" />
+					<Addition>
+						<Instance src="Brush82" X="24" />
+						<Instance src="Brush82" X="40" />
+					</Addition>
+				</Addition>
+				<Addition>
+					<Instance src="Brush82" X="-8" />
+					<Addition>
+						<Instance src="Brush82" X="-24" />
+						<Instance src="Brush82" X="-40" />
+					</Addition>
+				</Addition>
+			</Addition>
+		</Subtraction>
+		<Brush ID="Brush0">
+			<Planes>
+				<Plane A="-1" D="452" />
+				<Plane C="-1" D="236" />
+				<Plane C="1" D="236" />
+				<Plane A="1" D="452" />
+				<Plane B="-0.8407148" C="-0.5414782" D="5.884821" />
+				<Plane B="0.8407158" C="0.5414766" D="7.56676769" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush1">
+			<Planes>
+				<Plane A="-1" D="452" />
+				<Plane C="-1" D="236" />
+				<Plane C="1" D="236" />
+				<Plane A="1" D="452" />
+				<Plane B="-0.8407151" C="0.5414777" D="5.88501" />
+				<Plane B="0.8407152" C="-0.5414776" D="7.56640625" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush2">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="428" />
+				<Plane C="-1" D="440" />
+				<Plane C="1" D="440" />
+				<Plane A="1" D="428" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush3">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="68" />
+				<Plane C="-1" D="168" />
+				<Plane C="1" D="168" />
+				<Plane A="1" D="68" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush4">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="120" />
+				<Plane C="-1" D="216" />
+				<Plane C="1" D="216" />
+				<Plane A="1" D="120" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush5">
+			<Planes>
+				<Plane B="-1" D="292" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="440" />
+				<Plane C="1" D="440" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="292" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush6">
+			<Planes>
+				<Plane B="-1" D="292" />
+				<Plane A="-1" D="436" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="436" />
+				<Plane B="1" D="292" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush7">
+			<Planes>
+				<Plane B="-1" D="144" />
+				<Plane A="-1" D="4" />
+				<Plane A="1" D="4" />
+				<Plane B="0.8411785" C="-0.5407575" D="121.129761" />
+				<Plane B="0.8411785" C="0.5407575" D="121.129791" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush8">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="148" />
+				<Plane C="1" D="148" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush9">
+			<Planes>
+				<Plane A="-1" D="4" />
+				<Plane C="1" D="148" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="96" />
+				<Plane B="-0.8389614" C="-0.5441909" D="6.10351563E-05" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush10">
+			<Planes>
+				<Plane B="-1" D="97" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="149" />
+				<Plane A="1" D="4" />
+				<Plane B="0.8389614" C="0.5441909" D="-1.38305664" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush11">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="88" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="88" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush12">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="136" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="136" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush13">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush14">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="56" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="56" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush15">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="56" />
+				<Plane C="1" D="56" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush16">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="124" />
+				<Plane C="1" D="124" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush17">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="300" />
+				<Plane C="1" D="300" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush18">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="48" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="48" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush19">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="236" />
+				<Plane C="1" D="236" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush20">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="44" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="44" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush21">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="48" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="48" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush22">
+			<Planes>
+				<Plane B="-1" D="138" />
+				<Plane A="-1" D="8" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="138" />
+				<Plane B="-0.8404121" C="-0.5419478" D="4.98745728" />
+				<Plane B="0.8357053" C="0.5491781" D="7.13925171" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush23">
+			<Planes>
+				<Plane B="-1" D="138" />
+				<Plane A="-1" D="8" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="138" />
+				<Plane B="-0.8404121" C="0.5419478" D="4.932495" />
+				<Plane B="0.8357053" C="-0.5491781" D="7.194824" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush24">
+			<Planes>
+				<Plane B="-1" D="103" />
+				<Plane A="-1" D="8" />
+				<Plane C="-1" D="156" />
+				<Plane A="1" D="8" />
+				<Plane B="-0.8404121" C="-0.5419478" D="11.8835449" />
+				<Plane B="0.8357053" C="0.5491781" D="-0.405975342" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush25">
+			<Planes>
+				<Plane A="-1" D="8" />
+				<Plane C="1" D="35" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="23" />
+				<Plane B="-0.8404121" C="-0.5419478" D="-0.251342773" />
+				<Plane B="0.8357053" C="0.5491781" D="14.2786255" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush26">
+			<Planes>
+				<Plane B="-1" D="14" />
+				<Plane A="-1" D="8" />
+				<Plane C="-1" D="440" />
+				<Plane C="1" D="440" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="14" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush27">
+			<Planes>
+				<Plane B="-1" D="14" />
+				<Plane A="-1" D="412" />
+				<Plane C="-1" D="10" />
+				<Plane C="1" D="10" />
+				<Plane A="1" D="412" />
+				<Plane B="1" D="14" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush28">
+			<Planes>
+				<Plane B="-1" D="14" />
+				<Plane A="-1" D="8" />
+				<Plane C="-1" D="156" />
+				<Plane C="1" D="156" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="14" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush29">
+			<Planes>
+				<Plane B="-1" D="14" />
+				<Plane A="-1" D="8" />
+				<Plane C="-1" D="252" />
+				<Plane C="1" D="252" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="14" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush30">
+			<Planes>
+				<Plane B="-1" D="138" />
+				<Plane A="-1" D="8" />
+				<Plane C="-1" D="18" />
+				<Plane C="1" D="18" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="138" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush31">
+			<Planes>
+				<Plane B="-1" D="138" />
+				<Plane A="-1" D="8" />
+				<Plane A="1" D="8" />
+				<Plane B="1" D="138" />
+				<Plane B="-0.8404121" C="0.5419478" D="4.932495" />
+				<Plane B="0.8357054" C="-0.549178" D="7.194824" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush32">
+			<Planes>
+				<Plane B="-1" D="14" />
+				<Plane A="-1" D="428" />
+				<Plane C="-1" D="8" />
+				<Plane C="1" D="8" />
+				<Plane A="1" D="428" />
+				<Plane B="1" D="14" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush33">
+			<Planes>
+				<Plane B="-1" D="96" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="132" />
+				<Plane C="1" D="132" />
+				<Plane A="1" D="4" />
+				<Plane B="0.8320504" C="0.5547001" D="6.65646362" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush34">
+			<Planes>
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="132" />
+				<Plane C="1" D="132" />
+				<Plane A="1" D="4" />
+				<Plane B="-0.8320503" C="-0.5547003" D="9.984619" />
+				<Plane B="0.8320504" C="0.5547" D="9.98465" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush35">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="40" />
+				<Plane C="1" D="40" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush36">
+			<Planes>
+				<Plane B="-1" D="96" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="12" />
+				<Plane C="1" D="12" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="96" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush38">
+			<Planes>
+				<Plane B="-1" D="12" />
+				<Plane A="-1" D="64" />
+				<Plane C="-1" D="12" />
+				<Plane C="1" D="12" />
+				<Plane A="1" D="64" />
+				<Plane B="1" D="12" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush40">
+			<Planes>
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="132" />
+				<Plane C="1" D="132" />
+				<Plane A="1" D="4" />
+				<Plane B="-0.8320506" C="-0.5546998" D="9.984497" />
+				<Plane B="0.8320506" C="0.5546998" D="9.98468" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush41">
+			<Planes>
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="132" />
+				<Plane C="1" D="132" />
+				<Plane A="1" D="4" />
+				<Plane B="-0.8320506" C="-0.5546998" D="9.984497" />
+				<Plane B="0.8320505" C="0.5546999" D="9.98468" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush42">
+			<Planes>
+				<Plane B="-1" D="28" />
+				<Plane A="-1" D="3" />
+				<Plane C="-1" D="3" />
+				<Plane C="1" D="3" />
+				<Plane A="1" D="3" />
+				<Plane B="1" D="28" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush43">
+			<Planes>
+				<Plane B="-1" D="32" />
+				<Plane A="-1" D="3" />
+				<Plane C="-1" D="3" />
+				<Plane C="1" D="3" />
+				<Plane A="1" D="3" />
+				<Plane B="1" D="32" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush44">
+			<Planes>
+				<Plane B="-1" D="12" />
+				<Plane A="-1" D="68" />
+				<Plane C="-1" D="12" />
+				<Plane C="1" D="12" />
+				<Plane A="1" D="68" />
+				<Plane B="1" D="12" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush45">
+			<Planes>
+				<Plane B="-1" D="12" />
+				<Plane A="-1" D="60" />
+				<Plane C="-1" D="12" />
+				<Plane C="1" D="12" />
+				<Plane A="1" D="60" />
+				<Plane B="1" D="12" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush46">
+			<Planes>
+				<Plane B="-1" D="8" />
+				<Plane A="-1" D="60" />
+				<Plane C="-1" D="12" />
+				<Plane C="1" D="12" />
+				<Plane A="1" D="60" />
+				<Plane B="1" D="8" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush47">
+			<Planes>
+				<Plane B="-1" D="50" />
+				<Plane A="-1" D="72" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="72" />
+				<Plane B="1" D="50" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush48">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="72" />
+				<Plane C="-1" D="12" />
+				<Plane C="1" D="12" />
+				<Plane A="1" D="72" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush49">
+			<Planes>
+				<Plane B="-1" D="50" />
+				<Plane A="-1" D="16" />
+				<Plane C="-1" D="2" />
+				<Plane C="1" D="2" />
+				<Plane A="1" D="16" />
+				<Plane B="1" D="50" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush50">
+			<Planes>
+				<Plane B="-1" D="2" />
+				<Plane A="-1" D="72" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="72" />
+				<Plane B="1" D="2" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush51">
+			<Planes>
+				<Plane B="-1" D="2" />
+				<Plane A="-1" D="12" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="12" />
+				<Plane B="1" D="2" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush52">
+			<Planes>
+				<Plane B="-1" D="2" />
+				<Plane A="-1" D="36" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="36" />
+				<Plane B="1" D="2" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush53">
+			<Planes>
+				<Plane B="-1" D="46" />
+				<Plane A="-1" D="2" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="2" />
+				<Plane B="1" D="46" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush54">
+			<Planes>
+				<Plane B="-1" D="46" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="46" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush55">
+			<Planes>
+				<Plane B="-1" D="22" />
+				<Plane A="-1" D="2" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="2" />
+				<Plane B="1" D="22" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush56">
+			<Planes>
+				<Plane B="-1" D="344" />
+				<Plane A="-1" D="24" />
+				<Plane C="-1" D="32" />
+				<Plane C="1" D="32" />
+				<Plane A="1" D="24" />
+				<Plane B="1" D="344" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush57">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="32" />
+				<Plane C="-1" D="64" />
+				<Plane C="1" D="64" />
+				<Plane A="1" D="32" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush58">
+			<Planes>
+				<Plane B="-1" D="4" />
+				<Plane A="-1" D="40" />
+				<Plane C="-1" D="64" />
+				<Plane C="1" D="64" />
+				<Plane A="1" D="40" />
+				<Plane B="1" D="4" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush59">
+			<Planes>
+				<Plane B="-1" D="28" />
+				<Plane A="-1" D="4" />
+				<Plane C="-1" D="56" />
+				<Plane C="1" D="56" />
+				<Plane A="1" D="4" />
+				<Plane B="1" D="28" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush60">
+			<Planes>
+				<Plane B="-1" D="28" />
+				<Plane A="-1" D="28" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="28" />
+				<Plane B="1" D="28" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush61">
+			<Planes>
+				<Plane B="-1" D="348" />
+				<Plane A="-1" D="16" />
+				<Plane C="-1" D="24" />
+				<Plane C="1" D="24" />
+				<Plane A="1" D="16" />
+				<Plane B="1" D="348" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush62">
+			<Planes>
+				<Plane B="-1" D="92" />
+				<Plane A="-1" D="128" />
+				<Plane C="-1" D="84" />
+				<Plane C="1" D="84" />
+				<Plane A="1" D="128" />
+				<Plane B="1" D="92" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush63">
+			<Planes>
+				<Plane B="-1" D="16" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="52" />
+				<Plane C="1" D="52" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="16" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush64">
+			<Planes>
+				<Plane B="-1" D="76" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="84" />
+				<Plane C="1" D="84" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="76" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush65">
+			<Planes>
+				<Plane B="-1" D="60" />
+				<Plane A="-1" D="16" />
+				<Plane C="-1" D="52" />
+				<Plane C="1" D="52" />
+				<Plane A="1" D="16" />
+				<Plane B="1" D="60" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush71">
+			<Planes>
+				<Plane B="-1" D="24" />
+				<Plane A="-1" D="64" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="-0.316228" B="-0.9486832" D="12.5" />
+				<Plane A="0.3511231" B="0.9363293" D="0" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush72">
+			<Planes>
+				<Plane B="-1" D="24" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="64" />
+				<Plane A="0.316228" B="-0.9486832" D="12.5" />
+				<Plane A="-0.3511231" B="0.9363293" D="0" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush73">
+			<Planes>
+				<Plane B="-1" D="24" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="16" />
+				<Plane C="1" D="16" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="24" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush74">
+			<Planes>
+				<Plane B="-1" D="32" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="32" />
+				<Plane C="1" D="32" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="32" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush75">
+			<Planes>
+				<Plane B="-1" D="49" />
+				<Plane A="-1" D="16" />
+				<Plane C="-1" D="64" />
+				<Plane C="1" D="64" />
+				<Plane A="1" D="16" />
+				<Plane B="0.8944272" C="0.4472136" D="13.4164581" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush76">
+			<Planes>
+				<Plane B="-1" D="16" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="16" />
+				<Plane C="1" D="16" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="16" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush77">
+			<Planes>
+				<Plane B="-1" D="8" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="16" />
+				<Plane C="1" D="16" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="8" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush78">
+			<Planes>
+				<Plane B="-1" D="2" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="18" />
+				<Plane C="1" D="18" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="2" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush79">
+			<Planes>
+				<Plane B="-1" D="48" />
+				<Plane A="-1" D="16" />
+				<Plane C="-1" D="32" />
+				<Plane C="1" D="32" />
+				<Plane A="1" D="16" />
+				<Plane B="1" D="48" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush80">
+			<Planes>
+				<Plane B="-1" D="2" />
+				<Plane A="-1" D="96" />
+				<Plane C="-1" D="34" />
+				<Plane C="1" D="34" />
+				<Plane A="1" D="96" />
+				<Plane B="1" D="2" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush81">
+			<Planes>
+				<Plane B="-1" D="16" />
+				<Plane A="-1" D="52" />
+				<Plane C="-1" D="4" />
+				<Plane C="1" D="4" />
+				<Plane A="1" D="52" />
+				<Plane B="1" D="16" />
+			</Planes>
+		</Brush>
+		<Brush ID="Brush82">
+			<Planes>
+				<Plane B="-1" D="17" />
+				<Plane A="-1" D="1" />
+				<Plane A="1" D="1" />
+				<Plane B="1" D="17" />
+				<Plane A="-0.8090152" C="-0.5877877" D="0.999938965" />
+				<Plane A="-0.3089915" C="-0.9510648" D="1" />
+				<Plane A="-0.8090237" C="0.587776" D="1.00004578" />
+				<Plane A="-0.3089916" C="0.9510648" D="1" />
+				<Plane A="0.8090152" C="-0.5877877" D="0.9999237" />
+				<Plane A="0.3090441" C="-0.9510477" D="1" />
+				<Plane A="0.8090236" C="0.5877761" D="0.999938965" />
+				<Plane A="0.309044" C="0.9510477" D="0.999938965" />
+			</Planes>
+		</Brush>
+
+	</Instances>
+</CSG>
